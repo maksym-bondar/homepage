@@ -2,9 +2,325 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="./script.js"></script>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="loader-wrapper">
+        <img class="loader" alt="loading" />
+      </div>
+      <article>
+        <div class="page" style="border-color: #c5341c">
+          <div class="stackable grid">
+            <div class="row">
+              <div class="four wide center aligned column">
+                <div class="avatar-wrapper">
+                  <object
+                    class="avatar wide"
+                    data="./assets/images/avatar.jpg"
+                    role="img"
+                    aria-label="My profile picture"
+                  ></object>
+                </div>
+              </div>
+              <div class="twelve wide column">
+                <div class="stackable grid">
+                  <div class="sixteen wide column">
+                    <h1 class="name">Ryu Ivanovich Hoshi</h1>
+                    <div class="job">CEO Street Fighter</div>
+                    <ul class="contacts">
+                      <li>
+                        <a
+                          href="https://www.facebook.com/profile.php?id=100004808958030"
+                          rel="author"
+                          class="facebook"
+                        >
+                          <svg
+                            class="icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"
+                          >
+                            <path
+                              d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"
+                            />
+                          </svg>
+                          <span>Ryu Ivanovich Hoshi </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="ryuwins@gmail.com" rel="author" class="mail">
+                          <svg
+                            class="icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"
+                          >
+                            <path
+                              d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+                            ></path>
+                          </svg>
+                          <span>ryuwins@gmail.com</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://twitter.com/denjinryu"
+                          rel="author"
+                          class="twitter"
+                        >
+                          <svg
+                            class="icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 496 512"
+                          >
+                            <path
+                              d="M459 0H51C22.95 0 0 22.95 0 51v408c0 28.05 22.95 51 51 51h408c28.05 0 51-22.95 51-51V51c0-28.05-22.95-51-51-51zm-58.65 186.15c-2.55 117.3-76.5 198.9-188.7 204-45.9 2.55-79.05-12.75-109.65-30.6 33.15 5.101 76.5-7.649 99.45-28.05-33.15-2.55-53.55-20.4-63.75-48.45 10.2 2.55 20.4 0 28.05 0-30.6-10.2-51-28.05-53.55-68.85 7.65 5.1 17.85 7.65 28.05 7.65-22.95-12.75-38.25-61.2-20.4-91.8 33.15 35.7 73.95 66.3 140.25 71.4-17.85-71.4 79.051-109.65 117.301-61.2 17.85-2.55 30.6-10.2 43.35-15.3-5.1 17.85-15.3 28.05-28.05 38.25 12.75-2.55 25.5-5.1 35.7-10.2-2.551 12.75-15.301 22.95-28.051 33.15z"
+                            />
+                          </svg>
+                          <span>denjinryu</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.instagram.com/sworn_ryu/"
+                          rel="author"
+                          class="instagram"
+                        >
+                          <svg
+                            class="icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 500 512"
+                          >
+                            <path
+                              d="M505 257c0 34.8-.7 69.7.2 104.5 1.5 61.6-37.2 109.2-86.5 130.4-19.8 8.5-40.6 13-62.1 13-67.3.1-134.7 1-202-.3-50.7-1-92.4-22.2-122.3-64-15.7-22-23.2-47-23.2-74.1v-215c0-58.5 28.5-99.4 79.1-126C110.2 14 134.1 9.1 159 9c65.3 0 130.7-.4 196 .2 50.7.4 93 19.8 124.2 60.6 17.4 22.8 25.8 49 25.8 77.8V257zm-459 0v110c0 16.4 3.8 31.8 12.3 45.7 22.3 36.5 56 54.3 97.8 55 67.1 1 134.3.4 201.5.2 16.5 0 32.5-3.4 47.4-10.5 40.6-19.4 63.3-50.3 63.1-96.7-.4-71-.1-142-.1-213 0-20.1-5.7-38.5-17.6-54.7-23-31.1-54.8-46.4-92.8-46.8-67-.8-134-.3-201-.2-14.3 0-28.1 2.9-41.5 7.9-36.8 13.7-71 48.4-69.4 99.5 1.2 34.6.3 69.1.3 103.6z"
+                            />
+                            <path
+                              d="M257.6 363c-64.5 0-116.5-51.4-116.6-115.4-.1-63 52.3-114.6 116.4-114.6 64.3-.1 116.5 51.4 116.6 114.9 0 63.4-52.1 115-116.4 115.1zm0-37c43.9 0 79.5-35.1 79.4-78.3-.1-42.8-35.7-77.8-79.4-77.8-43.9 0-79.7 34.9-79.7 78 .1 43.2 35.8 78.2 79.7 78.1zM387.5 98c13.5 0 24.5 11.5 24.5 25.6-.1 14.1-11.2 25.5-24.7 25.4-13.3-.1-24.2-11.5-24.2-25.3C363 109.6 374 98 387.5 98z"
+                            />
+                          </svg>
+
+                          <span>sworn_ryu</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="sixteen wide mobile only column">
+                    <div class="divider"></div>
+                  </div>
+                  <div class="sixteen wide column">
+                    <h2>Résumé</h2>
+                    <p>
+                      ― I do not compete with others, the only competition that
+                      challenges me is myself. As a fighter, friend and an
+                      employee I am known as contemplative, tortured and driven.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sixteen wide column">
+                <div class="fat divider"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="ten wide column">
+                <h3>Experience</h3>
+                <h4>
+                  (The only thing you need to know, the kick to the face is
+                  legal!)
+                </h4>
+                <p>And a bit more details:</p>
+                <ul class="timeline">
+                  <li>
+                    <p>
+                      <strong>2018</strong> Amongst many fighters of the past
+                      was featured in the movie "Ready Player One". Ryu ready
+                      always!
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <strong>2017</strong> United with unknown until then to me
+                      Power Rangers to defea resurrected M.Bison.Damn good
+                      fighters they are, even not knowing karate ways!
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <strong>2016</strong> In "Street Fighter V" once and for
+                      all erased M.Bison from earth and tamed my inner Evil Ryu.
+                      Also spent some time on a side-project, mini-series
+                      "Street Fighter: Resurrection".
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <strong>2014</strong> Filmed in a martial arts tutorial
+                      "Street Fighter: Assassin's Fist", revealing to audience
+                      forgotten art of Ansatsuken.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <strong>2012</strong> The gods of intenet concluded me in
+                      the animated movie "Wreck-It Ralph", but rewarded me with
+                      a good drink for it!
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <strong>2008</strong> My evil alter ego sneaked out of
+                      control and became a boss in "Street Fighter IV".
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <strong>2006</strong>
+                      Borrowed my famous ripped gi to Soki in "Onimusha: Dawn of
+                      Dreams", gods informed me he needed that for the battle.
+                    </p>
+                  </li>
+                </ul>
+                <h3>PUBLICATIONS</h3>
+                <ul class="timeline">
+                  <li>
+                    <p>
+                      <strong>2011</strong> The true and humble story of me
+                      under pseudonim Tyler Wilde in an article "The evolution
+                      of Ken and Ryu"
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <strong>2003-2018</strong> For 15 years I have published
+                      comic books with Udon Entertainment depicting my
+                      adventures, bitter lessons and great victories.
+                    </p>
+                  </li>
+                </ul>
+
+                <h3>ACHIEVEMENTS</h3>
+                <ul>
+                  <li>
+                    #1 in "Top 25 Street Fighter Characters" by IGN, who also
+                    called me "fancy", "icon" and "a testament to the virtue of
+                    simplicity" ❤️
+                  </li>
+                  <li>
+                    #2 in "Top 20 Street Fighter Characters of All Time" by
+                    GameDaily, same council found me worth of #6 place in "Top
+                    25 Capcom Characters of All Time", which I proudly share
+                    with my partner Ken
+                  </li>
+                  <li>
+                    I was named "5th Most Powerful Street Fighter Character" by
+                    Screen Rant-san
+                  </li>
+                  <li>
+                    #71 in "Top 100 Heroes of All Time" by UGO Networks, also
+                    recognized #2 in their list of "Top 50 Street Fighter
+                    Characters"
+                  </li>
+                  <li>
+                    In a survey of 4000 online matches for Super Street Fighter
+                    IV, I got to be the most popular character, with 16.6% of
+                    players choosing my side
+                  </li>
+                </ul>
+              </div>
+              <div class="six wide column">
+                <section>
+                  <h3>Languages</h3>
+                  <p class="tags small">
+                    <a
+                      href="https://dribbble.com/shots/1828130-Resume"
+                      hreflang="en"
+                      rel="alternate"
+                      class="language"
+                      lang="en"
+                      >&#x1f1fa;&#x1f1f8; <span>ENGLISH</span></a
+                    >
+
+                    <a
+                      href="https://dribbble.com/shots/1828130-Resume"
+                      hreflang="🇨🇳"
+                      rel="alternate"
+                      class="language"
+                      lang="🇨🇳"
+                      >🇨🇳 <span>MANDARIN</span></a
+                    >
+
+                    <a
+                      href="https://dribbble.com/shots/1828130-Resume"
+                      hreflang="🇯🇵"
+                      rel="alternate"
+                      class="language"
+                      lang="🇯🇵"
+                      >🇯🇵 <span>JAPANESE</span></a
+                    >
+                  </p>
+                </section>
+
+                <section>
+                  <h3>Skills</h3>
+                  <p class="tags small">
+                    KARATE ENERGY ATTACK SHORYUKEN WALKING BAREFOOT PLAYING
+                    VIDEOGAMES DOING BURGERS MASHING POTATOES COPYWRITING ACTING
+                    VOICEOVERS
+                  </p>
+                </section>
+                <section>
+                  <h3>Character</h3>
+                  <p class="tags small">
+                    NOBLE DIRECT BOLD CONFIDENT DARING SCHIZOPHRENIC DRAMATIC
+                    PERSUASIVE IMMEDIATE WISE
+                  </p>
+                </section>
+                <section>
+                  <h3>Likes&#x1f603;</h3>
+                  <p class="tags small">
+                    GI VEGETABLES BLOOD SMALL MARSHMELLOWS RED COLOR KILLED
+                    ENEMY
+                  </p>
+                </section>
+                <section>
+                  <h3>Dislikes&#x1f61e;</h3>
+                  <p class="tags small">
+                    BISONS GHOSTS SMARTPHONES SMELL OF SEAFOOD BARBER SHOPS
+                    SLEEVES
+                  </p>
+                </section>
+                <section>
+                  <h3>Wants&#x1f97a;</h3>
+                  <p class="tags small">
+                    BE FIT WRITE MORE BOOKS FIND A GIRLFRIEND TO GO TO CINEMA
+                    WITH KILL ALL OF AKUMA FAMILY
+                  </p>
+                </section>
+                <section>
+                  <h3>Education</h3>
+                  <p>
+                    To live is to fight and to fight is to live. I started
+                    learning fighting at my master Gouken's castle, I was beaten
+                    at head way too often to remember when exactly.
+                  </p>
+                </section>
+              </div>
+            </div>
+            <h3 class="blink text-centered">
+              For more details please call my mom!
+            </h3>
+          </div>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
