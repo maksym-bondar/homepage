@@ -13,6 +13,7 @@ const showContent = () => {
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
+  // reset gif
   document.querySelector(".loader").setAttribute("src", LOADER_SRC);
   await timeout(6000);
   showContent();
